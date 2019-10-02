@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://3.86.46.86:9000/</sonar.host.url>
+		<sonar.host.url>//http://54.166.135.213:9000/</sonar.host.url>
 		<sonar.login>4d7f8dc0d241f10563bb79a67e9b0d6d6fe8f377</sonar.login>
 		<!-- <sonar.password>admin</sonar.password> -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.233.138.204:9980/mithuntechnologies/repository/paytm-release/</url>
+	      <url>http://54.225.18.107:8081/http://54.225.18.107:8081/repository/maven_release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.233.138.204:9980/mithuntechnologies/repository/paytm-snapshot/</url>
+	      <url>http://54.225.18.107:8081/http://54.225.18.107:8081/repository/maven_snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
